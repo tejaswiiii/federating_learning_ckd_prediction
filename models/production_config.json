@@ -1,0 +1,35 @@
+{
+  "model_file": "global_classifier_round3.keras",
+  "default_model": "global_classifier.keras",
+  "model_path": "../models/global_classifier_round3.keras",
+  "round": 3,
+  "threshold": 0.3500000000000001,
+  "latent_dim": 10,
+  "num_classes": 2,
+  "performance": {
+    "accuracy": 0.81125,
+    "recall": 1.0,
+    "specificity": 0.8051612903225807,
+    "precision": 0.14204545454545456,
+    "f1_score": 0.24875621890547264,
+    "auc_roc": 0.9250064516129032,
+    "false_positives": 151,
+    "false_negatives": 0,
+    "true_positives": 25,
+    "true_negatives": 624
+  },
+  "clinical_note": "Production model for CKD screening - 100.0% recall with 80.5% specificity",
+  "use_case": "Primary screening for chronic kidney disease",
+  "date_validated": "2025-12-13",
+  "label_mapping": {
+    "0": "CKD",
+    "1": "Healthy"
+  },
+  "notes": [
+    "LABEL MAPPING: 0=CKD, 1=Healthy (reversed from initial expectation)",
+    "Recall (CKD detection): 100.0%",
+    "Specificity: 80.5%",
+    "False Negatives: 0, False Positives: 151",
+    "Optimized for medical screening where missing cases is critical"
+  ]
+}

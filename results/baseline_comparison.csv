@@ -1,0 +1,4 @@
+Method,Accuracy,Recall,Precision,F1-Score,Privacy,Features
+Centralized,0.99125,0.96,0.8,0.9916335686966756,None,Full (15D)
+Standard FedAvg,0.995,1.0,0.8620689655172413,0.9951787168798812,Federated,Full (15D)
+Your Method,0.81125,1.0,0.14204545454545456,0.8719623380595237,Federated + DP,Latent (10D)

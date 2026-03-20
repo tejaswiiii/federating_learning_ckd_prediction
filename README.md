@@ -25,11 +25,6 @@ Test:       800 samples
 pip install tensorflow scikit-learn pandas numpy matplotlib streamlit
 ```
 
-## Usage
-```bash
-python federated_train.py
-```
-
 ## Demo
 A Streamlit web app for interactive CKD prediction:
 ```bash
@@ -52,7 +47,6 @@ models/             Saved models and encoders
 data/               Dataset files
 results/            Evaluation outputs
 demo.py             Streamlit prediction app
-requirements.txt    Dependencies
 ```
 
 ## Tech stack

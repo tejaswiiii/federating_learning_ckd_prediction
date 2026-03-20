@@ -38,11 +38,7 @@ streamlit run demo.py
 Enter patient vitals (creatinine, GFR, BUN, blood pressure, etc.) and get an instant CKD risk prediction with identified risk factors.
 
 ## How it works
-1. Split data into 4 clients (simulated hospitals):
-   - Client 1: 800 samples (770 CKD, 30 No CKD)
-   - Client 2: 800 samples (778 CKD, 22 No CKD)
-   - Client 3: 800 samples (770 CKD, 30 No CKD)
-   - Client 4: 800 samples (782 CKD, 18 No CKD)
+1. Split data into 4 clients (simulated hospitals)
 2. Each client trains local autoencoder
 3. Cluster clients by latent space similarity
 4. Federated training up to 25 rounds with cluster-aware aggregation
